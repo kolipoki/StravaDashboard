@@ -84,12 +84,215 @@ Problem: It will expire every 6 hours.
 
   #### Total Distance by Year (km/year)
 
-  I would like to know how much I ride.
+   I would like to know how much I ride.
 
- 
+   ![alt text](https://github.com/kolipoki/StravaDashboard/blob/main/Sample%20Pictures/total_distance.png)
+
 
   #### Total distance by Month (km/month)
 
-  Which month is the most active?
+   Which month is the most active?
 
+   ![alt text](https://github.com/kolipoki/StravaDashboard/blob/main/Sample%20Pictures/total_distance_month.png)
+
+  #### Total distance (km) by Month
+
+   Showing the same information in a line chart to be able to compare my active years.
   
+   ![alt text](https://github.com/kolipoki/StravaDashboard/blob/main/Sample%20Pictures/total_distance_month_2.png)
+
+  #### Total distance (km) by Weekday
+
+   Checking the most active day of the week.
+
+   ![alt text](https://github.com/kolipoki/StravaDashboard/blob/main/Sample%20Pictures/total_distance_month_3.png)
+
+  #### Distance distribution (km)
+
+   Check the average lenght of a ride.
+
+   ![alt text](https://github.com/kolipoki/StravaDashboard/blob/main/Sample%20Pictures/distance_distribution.png)
+
+  #### Distance distribution (km) by Year
+
+   Showing the main statistical values for each active year.
+
+   ![alt text](https://github.com/kolipoki/StravaDashboard/blob/main/Sample%20Pictures/distance_distribution_2.png)
+
+  #### Average elevation gain (m) distribution
+
+   Checking the average elevation gain per ride.
+
+   ![alt text](https://github.com/kolipoki/StravaDashboard/blob/main/Sample%20Pictures/elevation.png)
+
+  #### Distibution of average Heart Rate
+
+   What is the most common activity intensity?
+
+   I would like to spend the most training time in Zone2.
+
+   ![alt text](https://github.com/kolipoki/StravaDashboard/blob/main/Sample%20Pictures/hr.png)
+
+  #### Creating a Grid with Seaborn
+
+   Create a pair plot to visualize the relationships between performance metrics, using the specified performance columns.
+
+   ![alt text](https://github.com/kolipoki/StravaDashboard/blob/main/Sample%20Pictures/grid.png)
+
+  #### Is there a relationship between how far I ride and my average speed?
+
+   ![alt text](https://github.com/kolipoki/StravaDashboard/blob/main/Sample%20Pictures/speed.png)
+
+  #### Top 10 activity by distance
+
+  <div>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>date</th>
+      <th>name</th>
+      <th>distance</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>3080</th>
+      <td>2022-06-19</td>
+      <td>Balaton kör</td>
+      <td>204.42</td>
+    </tr>
+    <tr>
+      <th>3425</th>
+      <td>2023-05-21</td>
+      <td>Pilis vissza</td>
+      <td>138.90</td>
+    </tr>
+    <tr>
+      <th>3459</th>
+      <td>2023-06-24</td>
+      <td>Wolfsberg round 2 HC climb</td>
+      <td>134.12</td>
+    </tr>
+    <tr>
+      <th>3438</th>
+      <td>2023-06-03</td>
+      <td>Buba</td>
+      <td>119.75</td>
+    </tr>
+    <tr>
+      <th>3537</th>
+      <td>2023-09-08</td>
+      <td>Morning Ride</td>
+      <td>114.58</td>
+    </tr>
+    <tr>
+      <th>3137</th>
+      <td>2022-08-14</td>
+      <td>Kékes (Tour de Hongrie)</td>
+      <td>104.61</td>
+    </tr>
+    <tr>
+      <th>3591</th>
+      <td>2023-11-01</td>
+      <td>Pilis classic</td>
+      <td>101.47</td>
+    </tr>
+    <tr>
+      <th>2823</th>
+      <td>2021-10-05</td>
+      <td>Dobogókő</td>
+      <td>96.39</td>
+    </tr>
+    <tr>
+      <th>2769</th>
+      <td>2021-08-13</td>
+      <td>Balaton Nyugat (Linda+Hanni)</td>
+      <td>83.56</td>
+    </tr>
+    <tr>
+      <th>2768</th>
+      <td>2021-08-13</td>
+      <td>Morning Ride</td>
+      <td>82.32</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+  #### Top 10 activity by elevation gain
+
+  <div>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>date</th>
+      <th>name</th>
+      <th>elev_gain</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>3459</th>
+      <td>2023-06-24</td>
+      <td>Wolfsberg round 2 HC climb</td>
+      <td>2901.1</td>
+    </tr>
+    <tr>
+      <th>3591</th>
+      <td>2023-11-01</td>
+      <td>Pilis classic</td>
+      <td>1847.9</td>
+    </tr>
+    <tr>
+      <th>3537</th>
+      <td>2023-09-08</td>
+      <td>Morning Ride</td>
+      <td>1723.3</td>
+    </tr>
+    <tr>
+      <th>3154</th>
+      <td>2022-08-30</td>
+      <td>Sella Ronda</td>
+      <td>1720.3</td>
+    </tr>
+    <tr>
+      <th>3425</th>
+      <td>2023-05-21</td>
+      <td>Pilis vissza</td>
+      <td>1557.8</td>
+    </tr>
+    <tr>
+      <th>3137</th>
+      <td>2022-08-14</td>
+      <td>Kékes (Tour de Hongrie)</td>
+      <td>1410.4</td>
+    </tr>
+    <tr>
+      <th>3157</th>
+      <td>2022-09-01</td>
+      <td>Sella Ronda with Canazei</td>
+      <td>1300.9</td>
+    </tr>
+    <tr>
+      <th>3570</th>
+      <td>2023-10-11</td>
+      <td>Afternoon Ride</td>
+      <td>1213.4</td>
+    </tr>
+    <tr>
+      <th>1748</th>
+      <td>2018-10-28</td>
+      <td>Tour de Buda</td>
+      <td>1208.7</td>
+    </tr>
+    <tr>
+      <th>3640</th>
+      <td>2023-12-18</td>
+      <td>Zwift - Steeper &amp; Steeper on Tour of Fire and ...</td>
+      <td>1171.0</td>
+    </tr>
+  </tbody>
+</table>
+</div>
