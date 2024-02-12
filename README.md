@@ -1,3 +1,7 @@
+<p align="center">
+  <img width="500" height="300" src="https://cycle2day.nl/CK/image/2021/12/stravalogo.webp">
+</p>
+
 # StravaDashboard
 
 As a side project, I built this dashboard to gain insights into my Strava activity, focusing on my rides. It's also a way to practice my Python skills and explore libraries like Pandas, Seaborn, and Plotly Express.
